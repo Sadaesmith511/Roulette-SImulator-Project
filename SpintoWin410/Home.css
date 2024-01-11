@@ -1,0 +1,11 @@
+html{
+    background-image: url(Background.png);
+}
+body>.text{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+body>.Intro{
+
+}

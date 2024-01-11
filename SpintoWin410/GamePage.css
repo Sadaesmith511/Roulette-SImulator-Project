@@ -1,0 +1,247 @@
+html {
+    background-image: url(Frame\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(41, 41, 128);
+}
+
+header {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Jost', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pagetabs {
+    margin-top: 5px;
+}
+
+.pagetabs ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.pagetabs ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.pagetabs ul li::after {
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: rgba(41, 41, 128);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.pagetabs ul li:hover::after {
+    width: 100%;
+}
+
+
+.wheel img {
+    width: 300px;
+}
+.wheel{
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-top: 3%;
+    z-index: 0;
+}
+.button {
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.button2 {
+    background-color: blue;
+}
+
+
+.button3 {
+    background-color: red;
+}
+
+
+.button4 {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+
+.button5 {
+    background-color: orange;
+}
+
+
+.button6 {
+    background-color: rgb(150, 46, 150);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  input[type="text"] {
+    width: 75px;
+    border-radius: 5px;
+    border: 5px;
+  }
+  
+
+
+
+.spacingforwheel {
+    margin-top: 5px;
+    padding-left: 90px;
+}
+
+.BorderButton > button {
+    font-family: 'Jost', sans-serif;
+    border-radius: 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 7px solid rgba(52, 169, 185);
+    padding: 24px 34px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+
+.BorderButton >button:hover {
+    background: rgba(52, 169, 185);
+    color:white;
+    transition: 0.25s;
+}
+#welcome-text {
+    margin: 0;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between
+  }
+  .ruleset{
+    margin: 0;
+    margin-top: 5%;
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(Desktop\ -\ 4\ \(2\).png);
+    border: 5px rgb(80, 80, 248) solid;
+    
+  }
+  .displaygame{
+    margin: 0;
+    margin-left:25%;
+    position: absolute;
+    top: 20rem;
+    left: 70rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between
+  }
+  .displayresult{
+    margin-top: 90%;
+  }
+  .displaypay{
+    margin-top: 110%;
+  }
+table, th, td {
+  border: 10px solid rgb(0, 45, 128);
+  border-collapse: collapse;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(52, 67, 197);
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Jost', sans-serif;
+}
+.rules{
+    border: 10px solid rgb(0, 45, 128);
+  border-collapse: collapse;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(52, 67, 197);
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Jost', sans-serif;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 70%;
+}
+.howtoplay{
+    font-size: 30px;
+}
+.arrow img{
+    width: 50px;
+}
+.arrow{
+    position: absolute;
+    margin-left: 955.5px;
+    padding-top: 10px;
+    z-index: 1;
+}

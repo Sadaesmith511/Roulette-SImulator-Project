@@ -1,0 +1,528 @@
+.wheel{
+    animation-name: Rotate_Home;
+
+
+    /*animation-delay: -5s;*/
+    animation-duration: 5s;
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+    
+    }
+
+
+.wheel0{
+animation-name: hit0;
+animation-duration: 5s;
+/*animation-delay: -5s;*/
+z-index: 2;
+position: relative;
+animation-iteration-count: 1;
+}
+    @-webkit-keyframes hit0 {
+        to {rotate: 720deg;}
+      }
+
+
+.wheel1{
+    animation-name: hit1;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+    
+}
+    @-webkit-keyframes hit1 {
+        to {rotate: 495deg;}
+      }
+
+.wheel2{
+    animation-name: hit2;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+    
+}
+    @-webkit-keyframes hit2 {
+        to {rotate: 660deg;}
+      }
+
+.wheel3{
+
+    animation-name: hit3;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}  
+
+    @-webkit-keyframes hit3 {
+        to {rotate: 378deg;}
+      }
+
+.wheel4{
+
+    animation-name: hit4;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit4 {
+        to {rotate: 680deg;}
+      }
+
+.wheel5{
+
+    animation-name: hit5;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit5 {
+        to {rotate: 535deg;}
+      }
+
+.wheel6{
+
+    animation-name: hit6;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit6 {
+        to {rotate: 622deg;}
+      }
+
+.wheel7{
+
+    animation-name: hit7;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit7 {
+        to {rotate: 418deg;}
+      }
+
+.wheel8{
+
+    animation-name: hit8;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+    
+    @-webkit-keyframes hit8 {
+        to {rotate: 562deg;}
+      }
+
+.wheel9{
+
+    animation-name: hit9;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit9 {
+        to {rotate: 455deg;}
+      }
+
+.wheel10{
+
+    animation-name: hit10;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}    
+
+    @-webkit-keyframes hit10 {
+        to {rotate: 545deg;}
+      }
+
+.wheel11{
+
+    animation-name: hit11;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit11 {
+        to {rotate: 582deg;}
+      }
+
+.wheel12{
+
+    animation-name: hit12;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit12 {
+        to {rotate: 398deg;}
+      }
+
+.wheel13{
+
+    animation-name: hit13;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit13 {
+        to {rotate: 602deg;}
+      }
+
+.wheel14{
+
+    animation-name: hit14;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}  
+
+    @-webkit-keyframes hit14 {
+        to {rotate: 475deg;}
+      }
+
+.wheel15{
+
+    animation-name: hit15;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}  
+
+    @-webkit-keyframes hit15 {
+        to {rotate: 700deg;}
+      }
+
+.wheel16{
+
+    animation-name: hit16;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit16 {
+        to {rotate: 515deg;}
+      }
+
+.wheel17{
+
+    animation-name: hit17;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit17 {
+        to {rotate: 642deg;}
+      }
+
+.wheel18{
+
+    animation-name: hit18;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit18 {
+        to {rotate: 438deg;}
+      }
+
+.wheel19{
+
+    animation-name: hit19;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}    
+
+    @-webkit-keyframes hit19 {
+        to {rotate: 690deg;}
+      }
+
+.wheel20{
+
+    animation-name: hit20;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit20 {
+        to {rotate: 485deg;}
+      }
+
+.wheel21{
+
+    animation-name: hit21;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit21 {
+        to {rotate: 670deg;}
+      }
+
+.wheel22{
+
+    animation-name: hit22;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit22 {
+        to {rotate: 448deg;}
+      }
+
+.wheel23{
+
+    animation-name: hit23;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit23 {
+        to {rotate: 555deg;}
+      }
+
+.wheel24{
+
+    animation-name: hit24;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}    
+
+    @-webkit-keyframes hit24 {
+        to {rotate: 525deg;}
+      }
+
+.wheel25{
+
+    animation-name: hit25;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit25 {
+        to {rotate: 650deg;}
+      }
+
+.wheel26{
+
+    animation-name: hit26;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit26 {
+        to {rotate: 368deg;}
+      }
+
+.wheel27{
+
+    animation-name: hit27;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}    
+
+    @-webkit-keyframes hit27 {
+        to {rotate: 612deg;}
+      }
+
+.wheel28{
+
+    animation-name: hit28;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit28 {
+        to {rotate: 408deg;}
+      }
+
+.wheel29{
+
+    animation-name: hit29;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}    
+
+    @-webkit-keyframes hit29 {
+        to {rotate: 428deg;}
+      }
+
+.wheel30{
+
+    animation-name: hit30;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}    
+
+    @-webkit-keyframes hit30 {
+        to {rotate: 572deg;}
+      }
+
+.wheel31{
+
+    animation-name: hit31;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}    
+
+    @-webkit-keyframes hit31 {
+        to {rotate: 465deg;}
+      }
+
+.wheel32{
+
+    animation-name: hit32;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit32 {
+        to {rotate: 708deg;}
+      }
+
+.wheel33{
+
+    animation-name: hit33;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit33 {
+        to {rotate: 505deg;}
+      }
+
+.wheel34{
+
+    animation-name: hit34;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit34 {
+        to {rotate: 632deg;}
+      }
+
+.wheel35{
+
+    animation-name: hit35;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit35 {
+        to {rotate: 388deg;}
+      }
+
+.wheel36{
+
+    animation-name: hit36;
+    animation-duration: 5s;
+    /*animation-delay: -5s;*/
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+}   
+
+    @-webkit-keyframes hit36 {
+        to {rotate: 592deg;}
+      }
+

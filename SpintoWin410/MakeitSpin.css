@@ -1,0 +1,18 @@
+.SpinHome>img{
+animation-name: Rotate_Home;
+animation-duration: 5s;
+/*animation-delay: -5s;*/
+z-index: 2;
+position: relative;
+animation-iteration-count: 1;
+
+}
+.SpinLogoHome{
+    z-index: 1;
+    position: absolute;
+}
+@-webkit-keyframes Rotate_Home {
+    to{  rotate: 360deg;}
+}
+
+/*<center><div class="SpinLogoHome"></div><img src="textlogo.png" alt="Image failed to load"></center></div></center>*/

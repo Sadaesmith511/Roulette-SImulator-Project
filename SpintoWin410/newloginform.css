@@ -1,0 +1,158 @@
+html{
+  margin: auto;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+}
+header{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Jost', sans-serif;
+}
+nav{
+  right: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.pagetabs{
+  margin-top: 5px;
+}
+.pagetabs ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+ 
+}
+
+.pagetabs ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.pagetabs ul li::after{
+  content: '';
+  width: 0%;
+  height: 5px;
+  background: rgba(41, 41, 128);
+  display: block;
+  margin:auto;
+  transition: 0.5s;
+}
+.pagetabs ul li:hover::after{
+  width: 100%;
+}
+
+header{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Jost', sans-serif;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+}
+.pagetabs{
+  margin-top: 5px;
+}
+.pagetabs ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+ 
+}
+
+.pagetabs ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.pagetabs ul li::after{
+  content: '';
+  width: 0%;
+  height: 5px;
+  background: rgba(41, 41, 128);
+  display: block;
+  margin:auto;
+  transition: 0.5s;
+}
+.pagetabs ul li:hover::after{
+  width: 100%;
+}
+
+body{
+  background-image: url(Frame\ 1.png);
+  background-color: rgba(41, 41, 128);
+  display: flex;
+  justify-content: center;
+  
+}
+.form1{
+  position: fixed;
+  width: 330px;
+  padding: 2rem 1rem;
+  top: 20vh;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+.form2{
+  position: fixed;
+  width: 330px;
+  padding: 2rem 1rem;
+  top: 20vh;
+  left:550px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+h1{
+  font-size: 30px;
+  color: black;
+  margin-bottom: 1.2rem;
+}
+form input{
+  width: 70%;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #e4e4e4;
+}
+button{
+  font-size: 1rem;
+  margin-top: 1.0rem;
+  padding: 10px 0;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 82%;
+  color: #fff;
+  cursor: pointer;
+  background: rgba(41, 41, 128);
+}
+button:hover{
+  background:  rgba(41, 41, 128, 0.85);
+}
+input:focus{
+  border: 2px solid rgba(41, 41, 128);
+}
+.signup{
+  font-size: 15px;
+  margin-top: 22.4px;
+  color: black;
+}
+.signup a{
+  font-weight: 600;
+   color: rgba(41, 41, 128);
+   text-decoration: none;
+
+
+}

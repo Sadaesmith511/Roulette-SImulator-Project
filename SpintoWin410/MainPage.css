@@ -1,0 +1,130 @@
+html {
+    background-image: url(Frame\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(41, 41, 128);
+  }
+  
+  header {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .pagetabs {
+    margin-top: 5px;
+  }
+  
+  .pagetabs ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .pagetabs ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .pagetabs ul li::after {
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: rgba(41, 41, 128);
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+  }
+  
+  .pagetabs ul li:hover::after {
+    width: 100%;
+  }
+  
+  .All {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .All img {
+    flex: 1;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .SpinHome>img {
+    animation-name: Rotate_Home;
+    animation-duration: 5s;
+    z-index: 2;
+    position: relative;
+    animation-iteration-count: 1;
+  }
+  
+  .SpinLogoHome {
+    z-index: 1;
+    position: absolute;
+  }
+  
+  @-webkit-keyframes Rotate_Home {
+    to {rotate: 720deg;}
+  }
+  
+  .BorderButton {
+    font-family: 'Jost', sans-serif;
+    border-radius: 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 7px solid rgba(52, 169, 185);
+    padding: 24px 25px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .BorderButton:hover {
+    background: rgba(52, 169, 185);
+    transition: 0.25s;
+  }
+  
+  .howtoplay {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  
+  .Other {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Other img{
+        flex: 1;
+        margin: 0;
+        max-width: 40%;
+        height: auto;
+  }
+  

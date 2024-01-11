@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="newloginform.css" rel="stylesheet">
+    <link href="MainPage.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<header>
+    <nav>
+            <div class="pagetabs">
+                <ul>
+                    <li><a href="MainPage.html">HOME</a></li>
+                    <li><a href="GamePage.html">PLAY</a></li>
+                    <li><a href="">LEADERBOARD</a></li>
+                    <li><a href="">STATS</a></li>
+                </ul>
+            </div>
+        </nav>
+
+</header>
+<body>
+    <div class="form1">
+        <h1>Login</h1>
+        <form action="http://localhost:40000/login" method="post">
+            <input type="text" placeholder="Username" name="Username" required><br>
+            <input type="text" placeholder="Password" name="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <script src="app3.js"></script>
+        <div class="signup">
+            Don't have an account?<a href="newsignupform.html"> Sign Up Here</a>
+        </div>
+    </div>
+
+</body>
+</html>

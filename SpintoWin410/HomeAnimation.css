@@ -1,0 +1,8 @@
+@keyframes Intro{
+    from{transform: rotateZ(200deg);}
+    to{transform:rotateZ(360deg);}
+}
+body>.Intro{
+    animation-name: Cringe;
+    animation-duration: 10s;
+}

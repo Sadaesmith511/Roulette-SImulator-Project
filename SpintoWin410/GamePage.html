@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <link rel="shortcut icon" type="x-icon" href="Group 9 (1).png" />
+  <link href="GamePageAnimations.css" rel="stylesheet" />
+  <link href="GamePage.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost&display=swap" rel="stylesheet">
+</head>
+<header>
+  <nav>
+    <img src="newlogo.png" alt="image failed to load" width="200px">
+    <div class="pagetabs">
+      <ul>
+        <li><a href="MainPage.html">HOME</a></li>
+        <li><a href="">LEADERBOARD</a></li>
+        <li><a href="">STATS</a></li>
+        <li><a href="newlogin.html">LOGIN</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+</header>
+
+
+<body>
+  
+  <p id="welcome-text">Welcome: <br>Guest!<p>
+    <div class="ruleset">
+      <table>
+        <tr>
+          <th>Color</th>
+          <th>Chance</th>
+          <th>Range</th>
+          <th>Multiplier</th>
+      </tr>
+      <tr>
+        <td>Blue</td>
+        <td>25%</td>
+        <td>28-36</td>
+        <td>1.15</td>
+    </tr>
+    <tr>
+      <td>Red</td>
+      <td>20%</td>
+      <td>21-27</td>
+      <td>1.30</td>
+  </tr>
+  <tr>
+    <td>Yellow</td>
+    <td>18%</td>
+    <td>15-20</td>
+    <td>1.45</td>
+</tr>
+<tr>
+  <td>Green</td>
+  <td>15%</td>
+  <td>10-14</td>
+  <td>1.60</td>
+</tr>
+<tr>
+  <td>Purple</td>
+  <td>10%</td>
+  <td>6-9</td>
+  <td>1.75</td>
+</tr>
+<tr>
+  <td>Orange</td>
+  <td>7%</td>
+  <td>3-5</td>
+  <td>2.00</td>
+</tr>
+<tr>
+  <td>x3</td>
+  <td>5%</td>
+  <td>1-2</td>
+  <td>3.00</td>
+</tr>
+<tr>
+  <td>x4</td>
+  <td>2%</td>
+  <td>0</td>
+  <td>4.00</td>
+</tr>
+    </table>
+    </div>
+    </p>
+    <div class="rules"><u><div class="howtoplay">How to Play</div></u><br>
+      This wheel contains 37 numbers ranging between 0-36<br><br>
+      Each color has a set number range and bet multiplier <br><br>
+      There is also a chance the program will generate a 0, 1, or 2, in which the game will take your bet amount and multiply x3 or x4 regardless if you win.</div>
+
+    <div class="displaygame">
+      <div class="displayresult"><p>Result: <span id='output'></p></div><br>
+      <div class="displaypay"><p><br>Your balance is: $<span id="balance"></span></p></div>
+      <div class="displayresult"><p>Turns Left: <span id='turns'></p></div><br>
+    </div>
+
+    <div class="wheel" id="myDIV"><img src="Group 9 (1).png"></div>
+  <div class="spacingforwheel">
+    <div class="row">
+      <div class="button-container">
+        <button class="button button2" name="Blue" id="Blue">Blue</button>
+        <input type="text" placeholder="0" name="BlueValue" id="BlueValue">
+      </div>
+      <div class="button-container">
+        <button class="button button4" name="Yellow" id="Yellow">Yellow</button>
+        <input type="text" placeholder="0" name="YellowValue" id="YellowValue">
+      </div>
+      <div class="button-container">
+        <button class="button button6" name="Purple" id="Purple">Purple</button>
+        <input type="text" placeholder="0" name="PurpleValue" id="PurpleValue">
+      </div>
+    </div>
+    <div class="col">
+      <div class="button-container">
+        <button class="button button3" name="Red" id="Red">Red</button>
+        <input type="text" placeholder="0" name="RedValue" id="RedValue">
+      </div>
+      <div class="button-container">
+        <button class="button" name="Green" id="Green">Green</button>
+        <input type="text" placeholder="0" name="GreenValue" id="GreenValue">
+      </div>
+      <div class="button-container">
+        <button class="button button5" name="Orange" id="Orange">Orange</button>
+        <input type="text" placeholder="0" name="OrangeValue" id="OrangeValue">
+      </div>
+    </div>
+
+    <center><div class="BorderButton"><button class="Spinning" type="submit" id='PlayButton'>Submit</button></div>
+    <p>Output $:</p>
+    <p id='output'></p>
+    <p>Your balance is: $<span id="balance"></span></p></center>
+
+  </div>
+  <script src="GamePage.js"></script>
+</body>
+
+
+</html>
